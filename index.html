@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소현 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ✅ 헤더 -->
+    <header class="header">
+        <div class="hero-logo"> 
+            <img src="mainlogo.png" alt="로고">
+        </div>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ✅ About me -->
+    <section id="about">
+        <h2>About me</h2>
+        <p>안녕하세요. 저는 <strong>프로덕트 디자이너</strong>를 배우고 있는 <strong>김소현</strong>입니다.</p>
+        <p>새로운 아이디어를 고민하는 것을 좋아하고, <strong>도전하는 삶</strong>을 지향합니다.</p>
+        <p>사용자의 입장에서 더 나은 경험을 제공할 수 있는 디자인을 연구하며,
+        <p>문제 해결을 위한 기획과 UX/UI 디자인을 배우고 있습니다.</p>
+        </p>
+        <button class="btn more-btn">더보기</button>
+    </section>
+
+    <!-- ✅ Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <img src="photo.png" alt="Photoshop">
+            <img src="illu.png" alt="Illustrator">
+            <img src="figma.png" alt="Figma">
+            <img src="mid.png" alt="Midjourney">
+        </div>
+    </section>
+
+    <!-- ✅ Projects -->
+    <section id="projects">
+        <h2>Selected Work</h2>
+        <div class="scroll-container">
+            <div class="project-card">
+                <img src="iam.png" alt="프로젝트1">
+                <h3>모바일 앱 디자인</h3>
+                <p>가정보육 커리큘럼 앱 기획</p>
+                <a href="https://yourlink1.com" class="btn secondary" target="_blank">자세히 보기</a>
+            </div>
+            <div class="project-card">
+                <img src="fingo mo.png" alt="프로젝트2">
+                <h3>모바일 앱 디자인</h3>
+                <p>금융 앱 기획</p>
+                <a href="https://yourlink2.com" class="btn secondary" target="_blank">자세히 보기</a>
+            </div>
+            <div class="project-card">
+                <img src="kindldldl.png" alt="프로젝트3">
+                <h3>웹사이트 디자인</h3>
+                <p>블록체인 기반 기부 플랫폼 기획</p>
+                <a href="https://yourlink3.com" class="btn secondary" target="_blank">자세히 보기</a>
+            </div>
+            <div class="project-card">
+                <img src="logo.png" alt="프로젝트4">
+                <h3>로고 디자인</h3>
+                <p>브랜드 아이덴티티를 반영한 로고 디자인</p>
+                <a href="https://yourlink4.com" class="btn secondary" target="_blank">자세히 보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✅ 푸터 -->
+    <footer>
+        <div class="footer-container">
+            <!-- 네비게이션 버튼 (가로 정렬) -->
+            <div class="footer-nav">
+                <button class="footer-btn-nav" onclick="location.href='#about'">About</button>
+                <button class="footer-btn-nav" onclick="location.href='#projects'">Projects</button>
+                <button class="footer-btn-nav" onclick="location.href='#contact'">Contact</button>
+            </div>
+    
+            <!-- 이메일 & 인스타그램 버튼 -->
+            <div class="footer-contact">
+                <button class="footer-btn" onclick="location.href='mailto:r03756@gmail.com'">이메일 보내기</button>
+                <button class="footer-btn" onclick="window.open('https://www.instagram.com/__chloe.kim_', '_blank')">
+                    인스타그램
+                </button>
+            </div>
+    
+            <!-- 연락처 (전화번호) -->
+            <p class="footer-phone">010-8967-5719</p>
+    
+            <!-- 저작권 -->
+            <p>© 2025 Kim Sohyeon. All Rights Reserved.</p>
+            <p>Thanks for visiting! 😊</p>
+        </div>
+    </footer>
+
+</body>
+</html>
